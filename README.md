@@ -3,7 +3,7 @@ Restful API implementation in Express JS , Node JS and Angular JS
 
 Steps to deploy RestFul API :
 
-1. download Word-Count repository from https://github.com/neharale/Word-Count.git
+1. download Word-Count repository from git clone https://github.com/neharale/Word-Count.git
 2. change directory > Word-Count (cd Word-Count)  # install dependencies of server side i.e. Express, BodyParser
 3. npm install
 4. change directory > Word-Count/client  # install dependencies of client side i.e. Angular, Angular-Route
