@@ -1,0 +1,17 @@
+{
+  "name": "wordcount",
+  "version": "1.0.0",
+  "description": "Word Count Restful Api Implementation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "bower": "^1.8.4",
+    "express": "*",
+    "nodemon": "^1.17.3"
+  },
+  "author": "Neha Rale",
+  "license": "ISC"
+}

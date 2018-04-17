@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title> Word Count Rest Api </title>
+	<link rel="stylesheet" href="bower_components/bootsrtrap/dist/cssbootstrap.css">
+</head>
+<body>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="app.js"></script>
+	<script src="controllers/wordcount.js"></script>
+
+	<div ng-app="myApp" ng-controller="WordCountController">
+		<form name="myForm" ng-submit="getWordCount()">
+             Enter Text:<br><br>
+             <textarea rows="10" cols="150" ng-model="sentence"></textarea><br><br>
+             <input type="submit" value="Get Word Count">
+         </form>
+
+         <div>Sentence : {{sentence}}</div><br>
+         <div>Word Count : {{wordcount}}</div>
+
+	</div>
+	
+</body>
+</html>
